@@ -1,4 +1,19 @@
-# LU Turabian [![Build Status][status]][travis]
+# Liberty University Turabian Style Template (for Thesis/Dissertation)
+
+Updates
+---
+- remove bold fonts in TOC
+```tex
+% \usepackage[mincrossrefs=1]{biblatex-chicago}
+\usepackage[mincrossrefs=1,backend=bibtex]{biblatex-chicago}
+```
+- fix local bugs using Texstudio about missing refs
+```tex
+% \tableofcontents
+{\let\bfseries\relax
+	\tableofcontents
+}
+```
 
 What
 ----
@@ -33,12 +48,12 @@ How
 
 Two options.
 
-### [Overleaf]
+### Overleaf (<span style="color:red">Not working in the current Overleaf system</span>)
 
-1. [Create an account.][account]
+1. Create an account.
 2. Create a new blank project.
-3. Upload [`refs.bib`][refs].
-4. Copy the [`main.tex`][main] content.
+3. Upload `refs.bib`.
+4. Copy the `main.tex` content.
 5. Recompile.
 
 ### Local
@@ -48,6 +63,11 @@ Two options.
 3. `git clone https://github.com/samestep/lu-turabian.git`
 4. `cd lu-turabian`
 5. `latexmk -pdf`
+
+### Local with IDE (tested with TeXstudio)
+
+1. Tested with TeXstudio 2.12.20 and texlive 2018 in Win 7.
+2. Don't use F5 as `pdflatex` compile. Instead, click `Tools -> Command -> latexmk`
 
 [account]: https://www.overleaf.com/register
 [differences]: differences.md
