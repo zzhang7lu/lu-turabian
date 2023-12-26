@@ -7,7 +7,7 @@ Updates
 % \usepackage[mincrossrefs=1]{biblatex-chicago}
 \usepackage[mincrossrefs=1,backend=bibtex]{biblatex-chicago}
 ```
-- fix local bugs using Texstudio about missing refs
+- fix local issues using Texstudio about missing refs
 ```tex
 % \tableofcontents
 {\let\bfseries\relax
