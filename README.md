@@ -46,15 +46,7 @@ nearly comprehensive list of differences between this document and the original.
 How
 ---
 
-**Two** options.
-
-### Overleaf (Not working in the current Overleaf system in 2023)
-
-1. Create an account.
-2. Create a new blank project.
-3. Upload `refs.bib`.
-4. Copy the `main.tex` content.
-5. Recompile.
+**Two** options available.
 
 ### Local with IDE (tested with TeXstudio)
 
@@ -69,6 +61,13 @@ How
 4. `cd lu-turabian`
 5. `latexmk -pdf`
 
+### Overleaf (Not working in the current Overleaf system in 2023)
+
+1. Create an account.
+2. Create a new blank project.
+3. Upload `refs.bib`.
+4. Copy the `main.tex` content.
+5. Recompile.
 
 
 [account]: https://www.overleaf.com/register
