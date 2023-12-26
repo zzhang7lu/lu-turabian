@@ -32,7 +32,7 @@ repository in the following respects:
 - The title page is formatted differently.
 - Page numbering starts on the title page.
 - The Table of Contents is labeled as such, rather than simply "Contents".
-- The ToC entries aren't bold.
+- <strike>The ToC entries aren't bold.</strike>
 
 More importantly, while Mr. Surber's template is merely a template, this
 repository houses a full copy of Liberty's sample Turabian paper, which means
