@@ -46,15 +46,20 @@ nearly comprehensive list of differences between this document and the original.
 How
 ---
 
-Two options.
+**Two** options.
 
-### Overleaf (<span style="color:red">Not working in the current Overleaf system</span>)
+### Overleaf (Not working in the current Overleaf system in 2023)
 
 1. Create an account.
 2. Create a new blank project.
 3. Upload `refs.bib`.
 4. Copy the `main.tex` content.
 5. Recompile.
+
+### Local with IDE (tested with TeXstudio)
+
+1. Tested with TeXstudio 2.12.20 and texlive 2018 in Win 7.
+2. Don't use F5 as `pdflatex` compile. Instead, click `Tools -> Command -> latexmk`
 
 ### Local
 
@@ -64,10 +69,7 @@ Two options.
 4. `cd lu-turabian`
 5. `latexmk -pdf`
 
-### Local with IDE (tested with TeXstudio)
 
-1. Tested with TeXstudio 2.12.20 and texlive 2018 in Win 7.
-2. Don't use F5 as `pdflatex` compile. Instead, click `Tools -> Command -> latexmk`
 
 [account]: https://www.overleaf.com/register
 [differences]: differences.md
