@@ -15,8 +15,8 @@ Formatting
   **NimbusRomNo9L-Medi**, **NimbusRomNo9L-ReguItal**, **CMTT10**, and **CMTT12**
   instead of **TimesNewRomanPS-BoldMT**, **TimesNewRomanPSMT**,
   **TimesNewRomanPS-ItalicMT**, **SymbolMT** and **ArialMT**.
-- Page numbers of top-level sections in the table of contents are bold in my
-  version.
+- <strike>Page numbers of top-level sections in the table of contents are bold in my
+  version.</strike>
 - Bold underlining is thinner in my version.
 - My version follows standard Turabian in making footnote numbers not
   superscripted and following them with a period.
